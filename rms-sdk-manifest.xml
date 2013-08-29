@@ -1,0 +1,569 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rms-sdk-manifest version="4.1.5">
+
+  <!-- THE FILES BELOW ARE REQUIRED AND WILL BE INCLUDED IN ALL RMS SDK PROJECTS -->
+  <required>
+    <file id="RmsApi"
+          file="includes\RmsApi.axi"
+          type="Include" 
+          compileType="None"           
+          comments="This include file provides RMS API data structures, constants, and functions." 
+		  overwrite="true" />
+    <file id="RmsNetLinxAdapter" 
+          file="RmsNetLinxAdapter_dr4_0_0.jar"
+          type="External" 
+          compileType="None" 
+          comments="This module provides NetLinx programs with access to the RMS Client." 
+		  overwrite="true" />
+    <file id="RmsClient" 
+          file="rmsclient.jar"
+          type="External" 
+          compileType="None" 
+          comments="" 
+		  overwrite="true" />
+    <file id="Readme" 
+          file="Readme.html"
+          type="Other" 
+          compileType="None" 
+          comments="The README file for this version of the RMS SDK"
+		  overwrite="true" />
+    <file id="Main-Duet" 
+          file="Main-Duet.axs"
+          type="MasterSrc" 
+          compileType="Netlinx" 
+          comments="The Duet project master source file"
+		  overwrite="true" />
+    <file id="Main-Netlinx" 
+          file="Main-Netlinx.axs"
+          type="MasterSrc" 
+          compileType="Netlinx" 
+          comments="The NetLinx project master source file"
+		  overwrite="true" />
+		      <file id="Main-Netlinx" 
+          file="Main-Netlinx.axs"
+          type="MasterSrc" 
+          compileType="Netlinx" 
+          comments="The NetLinx project master source file"
+          overwrite="true" />
+  </required>
+
+
+  <!-- THE FILES BELOW ARE NETLINX STUDIO WORKSPACES THAT MAY BE USED AS A STARTING POINT FOR A NEW PROJECT -->
+  <workspaces>
+    <workspace name="RMS SDK - Duet">
+		<file id="RMS SDK - Duet" 
+		      file="RMS SDK - Duet.apw" 
+		      type="Other"
+			  compileType="None" 
+			  comments="Duet Monitoring Module NetLinx Studio Workspace" />
+	</workspace>
+	<workspace name="RMS SDK - NetLinx">
+		<file id="RMS SDK - NetLinx" 
+		      file="RMS SDK - NetLinx.apw" 
+		      type="Other"
+			  compileType="None" 
+			  comments="NetLinx Monitoring Module NetLinx Studio Workspace" />
+	</workspace>
+  </workspaces>
+
+  <!-- THE FILES BELOW ARE SAMPLES THAT MAY BE USED AS A STARTING POINT FOR A NEW PROJECT -->
+  <samples>
+      <group name="Common Sample Files">
+        <samples>
+            <sample name="Sample (RFID Implementation)">
+                <file id="Sample (RFID Implementation)" 
+                      file="Sample (RFID Implementation).axs"
+                      type="MasterSrc" 
+                      compileType="Netlinx"
+                      comments="Sample Master source file for RFID implementation."/>  
+            </sample>      
+            <sample name="Sample (System Modes)">
+                <file id="Sample (System Modes)" 
+                      file="Sample (System Modes).axs" 
+                      type="MasterSrc" 
+                      compileType="Netlinx"
+                      comments="Sample Master source file for System Mode implementation."/>  
+            </sample>
+            <sample name="Sample (System Power)">
+                <file id="Sample (System Power)"
+                      file="Sample (System Power).axs"
+                      type="MasterSrc" 
+                      compileType="Netlinx"
+                      comments="Sample Master source file for System Power implementation."/>  
+            </sample>        
+        </samples>
+    </group>
+    <group name="Duet Sample Files">
+        <samples>
+            <sample name="Duet Sample (Multiple Devices + Multiple Touch Panels)">
+                <file id="Duet Sample (Multiple Devices + Multiple Touch Panels)" 
+                      file="Duet Sample (Multiple Devices + Multiple Touch Panels).axs" 
+                      type="MasterSrc" 
+                      compileType="Netlinx"
+                      comments="Sample Duet Master source file for multiple devices and multiple touch panels."/>  
+            </sample>      
+            <sample name="Duet Sample (PDU Implementation)">
+                <file id="Duet Sample (PDU Implementation)" 
+                      file="Duet Sample (PDU Implementation).axs" 
+                      type="MasterSrc" 
+                      compileType="Netlinx"
+                      comments="Sample Duet Master source file for PDU implementation."/>  
+            </sample>  
+            <sample name="Duet Sample (Single Device + Touch Panel)">
+                <file id="Duet Sample (Single Device + Touch Panel)" 
+                      file="Duet Sample (Single Device + Touch Panel).axs" 
+                      type="MasterSrc" 
+                      compileType="Netlinx"
+                      comments="Sample Duet Master source file for a single device and single touch panel"/>  
+            </sample>  
+            <sample name="Duet Sample (Single Device)">
+                <file id="Duet Sample (Single Device)" 
+                      file="Duet Sample (Single Device).axs" 
+                      type="MasterSrc" 
+                      compileType="Netlinx"
+                      comments="Sample Duet Master source file for a single device."/>  
+            </sample>  
+            <sample name="Duet Sample (Source Usage)">
+                <file id="Duet Sample (Source Usage)" 
+                      file="Duet Sample (Source Usage).axs" 
+                      type="MasterSrc" 
+                      compileType="Netlinx"
+                      comments="Sample Duet Master source file for source usage support."/>  
+            </sample>  
+        </samples>
+    </group>
+    <group name="NetLinx Sample Files">
+        <samples>
+            <sample name="NetLinx Sample (Multiple Devices + Multiple Touch Panels)">
+                <file id="NetLinx Sample (Multiple Devices + Multiple Touch Panels)" 
+                      file="NetLinx Sample (Multiple Devices + Multiple Touch Panels).axs" 
+                      type="MasterSrc" 
+                      compileType="Netlinx"
+                      comments="Sample NetLinx Master source file for multiple devices and multiple touch panels."/>  
+            </sample>      
+            <sample name="NetLinx Sample (PDU Implementation)">
+                <file id="NetLinx Sample (PDU Implementation)" 
+                      file="NetLinx Sample (PDU Implementation).axs" 
+                      type="MasterSrc" 
+                      compileType="Netlinx"
+                      comments="Sample NetLinx Master source file for PDU implementation."/>  
+            </sample>  
+            <sample name="NetLinx Sample (Single Device + Touch Panel)">
+                <file id="NetLinx Sample (Single Device + Touch Panel)" 
+                      file="NetLinx Sample (Single Device + Touch Panel).axs" 
+                      type="MasterSrc" 
+                      compileType="Netlinx"
+                      comments="Sample NetLinx Master source file for a single device and single touch panel"/>  
+            </sample>  
+            <sample name="NetLinx Sample (Single Device)">
+                <file id="NetLinx Sample (Single Device)" 
+                      file="NetLinx Sample (Single Device).axs" 
+                      type="MasterSrc" 
+                      compileType="Netlinx"
+                      comments="Sample NetLinx Master source file for a single device."/>  
+            </sample>  
+            <sample name="NetLinx Sample (Source Usage)">
+                <file id="NetLinx Sample (Source Usage)" 
+                      file="NetLinx Sample (Source Usage).axs" 
+                      type="MasterSrc" 
+                      compileType="Netlinx"
+                      comments="Sample NetLinx Master source file for source usage support."/>  
+            </sample>  
+        </samples>
+    </group>
+  </samples>
+
+
+  <!-- THE SECTION BELOW CONTAINS THE LISTING OF DEVICE/ASSET MONITORING MODULES AND RELATED FILES  -->
+  <monitors>
+
+    <!-- THE SECTION BELOW CONTAINS THE SUPPORTED DEVICE/ASSET MONITORING MODULES COMMON FOR ALL IMPLEMENTATIONS -->
+    <group name="Common Monitoring Modules">
+      <required>
+        <file id="RmsMonitorCommon"
+              file="includes\RmsMonitorCommon.axi"
+              type="Include" 
+              compileType="None" 
+              comments="This include file is used in each RMS device monitoring module." />
+        <file id="RmsEventListener"
+              file="includes\RmsEventListener.axi"
+              type="Include"
+              compileType="None"
+              comments="This include file is used to listen for RMS notification events." />
+      </required>
+      <monitors>
+		<monitor name="AMX RMS Control System">
+			<file id="RmsControlSystemMonitor" 
+				  file="monitors\RmsControlSystemMonitor.axs" 
+				  type="Module" 
+				  compileType="Netlinx"
+				  comments="This device monitoring module provides monitoring and control to RMS for the NetLinx master."/>
+		</monitor>
+		<monitor name="AMX Touch Panel Device">
+			<file id="RmsTouchPanelMonitor"
+				  file="monitors\RmsTouchPanelMonitor.axs" 
+				  type="Module" 
+				  compileType="Netlinx"
+				  comments="This device monitoring module provides monitoring and control to RMS for G3/G4 touch panels."/>
+		</monitor>
+		<monitor name="AMX Power Distribution Unit (NXA-PDU)">
+			<file id="RmsPowerDistributionUnitMonitor"
+				  file="monitors\RmsPowerDistributionUnitMonitor.axs" 
+				  type="Module" 
+				  compileType="Netlinx"
+				  comments="This module provides power/energy monitoring and management to RMS for PDU devices."/>
+		</monitor>
+		<monitor name="AMX Generic NetLinx Device">
+			<file id="RmsGenericNetLinxDeviceMonitor"
+				  file="monitors\RmsGenericNetLinxDeviceMonitor.axs" 
+				  type="Module" 
+				  compileType="Netlinx"
+				  comments="This module provides basic device monitoring to RMS for AMX devices."/>                
+		</monitor>		
+		<monitor name="AMX System Mode">
+            <file id="RmsSystemModeMonitor"
+                  file="monitors\RmsSystemModeMonitor.axs" 
+                  type="Module" 
+                  compileType="Netlinx"
+                  comments="This module provides provides monitoring and control for system modes."/>                
+        </monitor>  
+        <monitor name="AMX System Power">
+            <file id="RmsSystemPowerMonitor"
+                  file="monitors\RmsSystemPowerMonitor.axs" 
+                  type="Module" 
+                  compileType="Netlinx"
+                  comments="This module provides basic monitoring and control for system power."/>                
+        </monitor>  
+        <monitor name="AMX RMS Virtual Device">
+            <file id="RmsVirtualDeviceMonitor"
+                  file="monitors\RmsVirtualDeviceMonitor.axs" 
+                  type="Module" 
+                  compileType="Netlinx"
+                  comments="This module provides the hooks for monintoring the RMS virtual device."/>                
+        </monitor>  
+      </monitors>
+    </group>
+
+    <!-- THE SECTION BELOW CONTAINS THE SUPPORTED DEVICE/ASSET MONITORING MODULES FOR DUET-BASED DEVICE IMPLEMENTATION  -->
+    <group name="Duet Based Monitoring Modules">
+      <monitors>
+		<monitor name="Audio Conferencer">
+			<file id="RmsDuetAudioConferencerMonitor"
+				  file="monitors-duet\RmsDuetAudioConferencerMonitor.axs"
+				  type="Module"
+				  compileType="Netlinx"
+				  comments="This device monitoring module provides monitoring and control to RMS for Audio Conferencers."/>
+		</monitor>				
+		<monitor name="Camera">
+			<file id="RmsDuetCameraMonitor"
+				  file="monitors-duet\RmsDuetCameraMonitor.axs"
+				  type="Module"
+				  compileType="Netlinx"
+				  comments="This device monitoring module provides monitoring and control to RMS for Cameras."/>
+		</monitor>				
+		<monitor name="Digital Satellite System">
+			<file id="RmsDuetDigitalSatelliteSystemMonitor"
+                  file="monitors-duet\RmsDuetDigitalSatelliteSystemMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Digital Satellite Systems."/>
+		</monitor>				
+		<monitor name="Digital Video Recorder">
+			<file id="RmsDuetDVRMonitor"
+                  file="monitors-duet\RmsDuetDVRMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Digital Video Recorders."/>
+		</monitor>				
+		<monitor name="Disc Device">
+			<file id="RmsDuetDiscDeviceMonitor"
+                  file="monitors-duet\RmsDuetDiscDeviceMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Disc Devices."/>
+		</monitor>				
+		<monitor name="Document Camera">
+			<file id="RmsDuetDocCameraMonitor"
+                  file="monitors-duet\RmsDuetDocCameraMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Document Cameras."/>
+		</monitor>
+		<monitor name="HVAC">
+			<file id="RmsDuetHVACMonitor"
+                  file="monitors-duet\RmsDuetHVACMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for HVAC systems."/>
+		</monitor>
+		<monitor name="Light System">
+			<file id="RmsDuetLightSystemMonitor"
+                  file="monitors-duet\RmsDuetLightSystemMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Light Systems."
+                  warning="The light system monitor module will require custom programming to function properly" />
+		</monitor>
+		<monitor name="Monitor">
+			<file id="RmsDuetMonitorMonitor"
+                  file="monitors-duet\RmsDuetMonitorMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Monitors."/>
+		</monitor>
+		<monitor name="Receiver">				  
+			<file id="RmsDuetReceiverMonitor"
+                  file="monitors-duet\RmsDuetReceiverMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Receivers."/>
+		</monitor>
+		<monitor name="Security System">				  
+			<file id="RmsDuetSecuritySystemMonitor"
+                  file="monitors-duet\RmsDuetSecuritySystemMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Security Systems."/>
+		</monitor>
+		<monitor name="Set Top Box">				  
+			<file id="RmsDuetSettopBoxMonitor"
+                  file="monitors-duet\RmsDuetSettopBoxMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Set Top Boxes."/>
+		</monitor>
+		<monitor name="Switcher">  
+			<file id="RmsDuetSwitcherMonitor"
+                  file="monitors-duet\RmsDuetSwitcherMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Switchers."/>
+		</monitor>
+		<monitor name="TV">  				  
+			<file id="RmsDuetTVMonitor"
+                  file="monitors-duet\RmsDuetTVMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for TVs."/>
+		</monitor>
+		<monitor name="Video Conferencer">  				  
+			<file id="RmsDuetVideoConferencerMonitor"
+                  file="monitors-duet\RmsDuetVideoConferencerMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Video Conferencers."/>
+		</monitor>
+		<monitor name="Video Projector">
+			<file id="RmsDuetVideoProjectorMonitor"
+                  file="monitors-duet\RmsDuetVideoProjectorMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Video Projectors."/>
+		</monitor>
+      </monitors>
+    </group>
+
+    <!-- THE SECTION BELOW CONTAINS THE SUPPORTED DEVICE/ASSET MONITORING MODULES FOR NETLINX-BASED DEVICE IMPLEMENTATION  -->
+    <group name="NetLinx Based Monitoring Modules">
+      <required>
+        <file id="RmsNlSnapiComponents" 
+              type="Include" 
+              compileType="None" 
+              file="includes\RmsNlSnapiComponents.axi" 
+              comments="This file is used to implement SNAPI listeners for NetLinx devices" 
+			  overwrite="true" />
+        <file id="RmsNlTimer"
+              type="Include"
+              file="includes\RmsNlTimer.axi"
+              compileType="None"
+              comments="This file is used to implement a timer for NetLinx device monitoring module in RMS." 
+			  overwrite="true" />
+      </required>
+      <monitors>
+		<monitor name="Audio Conferencer">
+			<file id="RmsNlAudioConferencerMonitor"
+                  file="monitors-netlinx\RmsNlAudioConferencerMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for the Audio Conferencers."/>
+		</monitor>
+		<monitor name="Camera">
+			<file id="RmsNlCameraMonitor"
+                  file="monitors-netlinx\RmsNlCameraMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Cameras."/>
+		</monitor>
+		<monitor name="Digital Satellite System">
+			<file id="RmsNlDigitalSatelliteSystemMonitor"
+                  file="monitors-netlinx\RmsNlDigitalSatelliteSystemMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Digital Satellite Systems."/>
+		</monitor>
+		<monitor name="Digital Video Recorder">
+			<file id="RmsNlDVRMonitor"
+                  file="monitors-netlinx\RmsNlDVRMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Digital Video Recorders."/>
+		</monitor>
+		<monitor name="Disc Device">
+			<file id="RmsNlDiscDeviceMonitor"
+                  file="monitors-netlinx\RmsNlDiscDeviceMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Disc Devices."/>
+		</monitor>
+		<monitor name="Document Camera">
+			<file id="RmsNlDocCameraMonitor"
+                  file="monitors-netlinx\RmsNlDocCameraMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Document Cameras."/>
+		</monitor>
+		<monitor name="HVAC">
+			<file id="RmsNlHVACMonitor"
+                  file="monitors-netlinx\RmsNlHVACMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for HVAC systems."/>
+		</monitor>
+		<monitor name="Light System">
+			<file id="RmsNlLightSystemMonitor"
+                  file="monitors-netlinx\RmsNlLightSystemMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Light Systems."
+                  warning="The light system monitor module will require custom programming to function properly" />
+		</monitor>
+		<monitor name="Monitor">
+			<file id="RmsNlMonitorMonitor"
+                  file="monitors-netlinx\RmsNlMonitorMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Monitors."/>
+		</monitor>
+		<monitor name="Receiver">				  
+			<file id="RmsNlReceiverMonitor"
+                  file="monitors-netlinx\RmsNlReceiverMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Receivers."/>
+		</monitor>
+		<monitor name="Security System">				  
+			<file id="RmsNlSecuritySystemMonitor"
+                  file="monitors-netlinx\RmsNlSecuritySystemMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Security Systems."/>
+		</monitor>
+		<monitor name="Set Top Box">				  
+			<file id="RmsNlSettopBoxMonitor"
+                  file="monitors-netlinx\RmsNlSettopBoxMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Set Top Boxes."/>
+		</monitor>
+		<monitor name="Switcher">  
+			<file id="RmsNlSwitcherMonitor"
+                  file="monitors-netlinx\RmsNlSwitcherMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Switchers."/>
+		</monitor>
+		<monitor name="TV">  				  
+			<file id="RmsNlTVMonitor"
+                  file="monitors-netlinx\RmsNlTVMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for TVs."/>
+		</monitor>
+		<monitor name="Video Conferencer">  				  
+			<file id="RmsNlVideoConferencerMonitor"
+                  file="monitors-netlinx\RmsNlVideoConferencerMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Video Conferencers."/>
+		</monitor>
+		<monitor name="Video Projector">
+			<file id="RmsNlVideoProjectorMonitor"
+                  file="monitors-netlinx\RmsNlVideoProjectorMonitor.axs"
+                  type="Module"
+                  compileType="Netlinx"
+                  comments="This device monitoring module provides monitoring and control to RMS for Video Projectors."/>
+		</monitor>
+      </monitors>
+    </group>
+  </monitors>
+
+  <!-- THE SECTION BELOW CONTAINS THE LISTING OF OPTIONAL RMS FEATURE MODULES AND RELATED FILES  -->
+  <features>
+
+    <group name="RMS Application User Interface">
+      <features>
+		  <feature name="RMS Touch Panel (800x480)">
+			<file id="RMS (800x480)"
+				  file="touch panels\RMS (800x480).TP4"
+				  type="TP4"
+				  compileType="None"
+				  comments="This touch panel file includes the RMS application user interface." />
+			<file id="RmsClientGui"
+				  file="RmsClientGui_dr4_0_0.jar"
+				  type="External"
+				  compileType="None"
+				  comments="This Duet module facilitates the RMS applcation user interface logic." 
+				  overwrite="true" />
+		  </feature>
+      </features>
+	</group>
+
+    <group name="RMS Client Features">
+      <features>	
+		  <feature name="Source Usage Tracking">
+			<file id="RmsSourceUsage"
+				  file="includes\RmsSourceUsage.axi"
+				  type="Include"
+				  compileType="None"
+				  comments="This include file implements source usage tracking with RMS." />
+			<file id="RmsSourceUsageMonitor"
+				  file="monitors\RmsSourceUsageMonitor.axs"
+				  type="Module"
+				  compileType="Netlinx"
+				  comments="This module implements source usage tracking with RMS." />
+		  </feature>
+		  <feature name="System Power &amp; System Modes">
+			<file id="RmsSystemEventHandler"
+				  file="includes\RmsSystemEventHandler.axi"
+				  type="Include"
+				  compileType="None"
+				  comments="This include file listens for System events from RMS." 
+				  overwrite="true" />
+		  </feature>
+      </features>
+    </group>
+
+    <group name="Asset Tracking">
+      <features>	
+		  <feature name="Anterus RFID Asset Tracking">
+			<file id="RmsRfid"
+				  file="includes\RmsRfid.axi"
+				  type="Include"
+				  compileType="None"
+				  comments="This include include RFID support for RMS." />
+			<file id="RmsAnterusRFIDAdapter"
+				  file="RmsAnterusRFIDAdapter_dr4_0_0.jar"
+				  type="External"
+				  compileType="None"
+				  comments="This Duet moudle provide the implementation for tracking RFID tags with RMS." 
+				  overwrite="true" />
+			<file id="RmsRfidReaderMonitor"
+				  file="monitors\RmsRfidReaderMonitor.axs"
+				  type="Module"
+				  compileType="Netlinx"
+				  comments="This module implements device monitoring for AMX Anterus RFID reader device with RMS." />
+		  </feature>
+      </features>	  
+    </group>
+  </features>
+</rms-sdk-manifest>

@@ -1,0 +1,23 @@
+AMX LICENSE AGREEMENT
+
+By clicking the "I Agree" button below, you ("Licensee") agree to be bound by, and AMX Corporation ("AMX") shall be entitled to enforce, this AMX License Agreement ("Agreement").  By clicking the "I Disagree" button below, Licensee (i) does not agree to be bound by this Agreement; (ii) shall not be permitted access to the software accompanying, or obtained through, this media (the "AMX Software"); and (iii) if applicable, shall promptly return this media or copies in any media, at the Licensee's expense, to AMX at 3000 Research Drive, Richardson, Texas 75082, USA.
+
+1.	LICENSE GRANT.  AMX grants to Licensee the non-exclusive right to use the AMX Software in the manner described in this License.  This license does not grant Licensee the right to create derivative works of the AMX Software.  The AMX Software consists of programming and development software, product documentation, sample applications, tools and utilities, and miscellaneous technical information.  Please refer to the README.TXT file on the compact disc or download for further information regarding the components of the AMX Software.  The AMX Software is subject to restriction on distribution described in this License Agreement.  YOU MAY NOT SUBLICENSE, RENT OR LEASE THE AMX SOFTWARE.  You may only use the AMX Software for its intended purpose.  You may not reverse engineer, decompile, or disassemble the AMX Software.
+
+2.	INTELLECTUAL PROPERTY.  The AMX Software is owned, by AMX and is protected by United States copyright laws, patent laws, international treaty provisions, and/or state of Texas trade secret laws.  Licensee may make copies of the AMX Software solely for backup or archival purposes.  Licensee may not copy the written materials accompanying the AMX Software.
+
+3.	TERMINATION.  AMX RESERVES THE RIGHT, IN ITS SOLE DISCRETION, TO TERMINATE THIS LICENSE FOR ANY REASON AND UPON WRITTEN NOTICE TO LICENSEE.  In the event that AMX terminates this License, then Licensee shall return all copies of the AMX Software to AMX and certify in writing that all copies have been destroyed.
+
+4.	PRE-RELEASE CODE.  Portions of the AMX Software may, from time to time, as identified in the AMX Software, include PRE-RELEASE CODE and such code may not be at the level of performance, compatibility, and functionality of final code. THE PRE-RELEASE CODE may not operate correctly and may be substantially modified prior to final release or certain features may not be generally released.  AMX is not obligated to make or support any PRE-RELEASE CODE.  ALL PRE-RELEASE CODE IS PROVIDED "AS IS" WITH NO WARRANTIES.
+
+5. LIMITED WARRANTY.  AMX warrants that the AMX Software will perform substantially in accordance with the accompanying written materials for a period of 30 days from the date of receipt.  AMX DISCLAIMS ALL OTHER WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, WITH REGARD TO THE AMX SOFTWARE.  THE LIMITED WARRANTY GIVES YOU SPECIFIC LEGAL RIGHTS.
+
+6. LICENSEE REMEDIES.  AMX's entire liability and your exclusive remedy shall be repair or replacement of the AMX Software that does not meet AMX's Limited Warranty and which is returned to AMX.  The Limited Warranty is void if failure of the AMX Software has resulted from accident, abuse, or misapplication.  Any replacement AMX Software will be warranted for the remainder of the original warranty period or 30 days, whichever is longer.  Outside the United States, these remedies may not be available.  
+
+7.	NO LIABILITY FOR CONSEQUENTIAL DAMAGES.  IN NO EVENT SHALL AMX BE LIABLE FOR ANY DAMAGES WHATSOEVER (INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS INFORMATION, OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF THE USE OR THE INABILITY TO USE THIS AMX PRODUCT, EVEN IF AMX HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  BECAUSE SOME STATES/COUNTRIES DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+
+7. U.S. GOVERNMENT RESTRICTED RIGHTS.  The AMX Software is provided with RESTRICTED RIGHTS.  Use, duplication, or disclosure by the Government is subject to restrictions as set forth in subparagraph (c)(1)(ii) of The Rights in Technical Data and Computer Software clause at DFARS 252.227-7013 or subparagraphs (c)(1) and (2) of the Commercial Computer Software Restricted Rights at 48 CFR 52.227-19, as applicable.  
+
+This Agreement is governed by the laws of the State of Texas, and all disputes will be resolved in the courts in Collin County, Texas, USA.
+
+
