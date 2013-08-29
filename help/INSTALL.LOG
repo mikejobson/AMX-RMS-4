@@ -1,0 +1,210 @@
+***  Installation Started 08/29/2013 10:48  ***
+Title: AMX Resource Management Suite SDK 
+Source: \\vmware-host\Shared Folders\Downloads\ResourceManagementSuiteSDK\ResourceManagementSuiteSDK.exe | 11-30-2012 | 16:26:22 | 39094456
+System Restore: Enabled
+Made Dir: C:\Program Files (x86)\AMX\Resource Management Suite
+Made Dir: C:\Program Files (x86)\AMX\Resource Management Suite\sdk
+Made Dir: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx
+Made Dir: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\commons-codec-1.4-AMX-01.jar | 11-30-2012 | 16:25:14 | | 58634 | 5b1d37b1
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\commons-httpclient-3.1-AMX-01.jar | 11-30-2012 | 16:25:14 | | 308011 | 36e0eb55
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\commons-lang-2.5-AMX-01.jar | 11-30-2012 | 16:25:14 | | 281388 | d66f83ce
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\commons-logging-1.1.1-AMX-01.jar | 11-30-2012 | 16:25:14 | | 61399 | aaa29a1d
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Duet Sample (Multiple Devices + Multiple Touch Panels).axs | 11-30-2012 | 16:25:16 | | 8187 | 127bdf23
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Duet Sample (PDU Implementation).axs | 11-30-2012 | 16:25:16 | | 7498 | a62d55a0
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Duet Sample (Single Device + Touch Panel).axs | 11-30-2012 | 16:25:16 | | 6051 | bcee606
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Duet Sample (Single Device).axs | 11-30-2012 | 16:25:16 | | 4726 | cae8d2db
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Duet Sample (Source Usage).axs | 11-30-2012 | 16:25:16 | | 11759 | 90c6a71f
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Main-Duet.axs | 11-30-2012 | 16:25:16 | | 14148 | 59c1555e
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Main-Netlinx.axs | 11-30-2012 | 16:25:16 | | 13818 | 364633b6
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\NetLinx Sample (Advanced Scheduling).axs | 11-30-2012 | 16:25:16 | | 43498 | d59e910b
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\NetLinx Sample (DVX-2100 Switcher).axs | 11-30-2012 | 16:25:16 | | 2400 | 6e202b59
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\NetLinx Sample (DVX-215x-315x Switcher).axs | 11-30-2012 | 16:25:16 | | 3268 | ebc7da93
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\NetLinx Sample (Multiple Devices + Multiple Touch Panels).axs | 11-30-2012 | 16:25:16 | | 7763 | 301aeaea
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\NetLinx Sample (PDU Implementation).axs | 11-30-2012 | 16:25:16 | | 7136 | a63db703
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\NetLinx Sample (Single Device + Touch Panel).axs | 11-30-2012 | 16:25:16 | | 6189 | 989963c8
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\NetLinx Sample (Single Device).axs | 11-30-2012 | 16:25:16 | | 4869 | 800c992b
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\NetLinx Sample (Source Usage).axs | 11-30-2012 | 16:25:16 | | 11389 | c1f5e23
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Readme.html | 11-30-2012 | 16:25:14 | | 5342 | fdba2c7e
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Readme.txt | 11-30-2012 | 16:25:14 | | 2678 | fc7db991
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\RMS SDK - Duet.apw | 11-30-2012 | 16:25:16 | | 41643 | 671762ee
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\RMS SDK - NetLinx.apw | 11-30-2012 | 16:25:16 | | 44483 | e2941083
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\rms-sdk-manifest.xml | 11-30-2012 | 16:25:18 | | 26325 | 208f609a
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\RmsAnterusRFIDAdapter_dr4_0_0.jar | 11-30-2012 | 16:25:14 | | 19054 | f9403574
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\rmsclient.jar | 11-30-2012 | 16:25:14 | | 372215 | e553b728
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\RmsClientGui_dr4_0_0.jar | 11-30-2012 | 16:25:14 | | 90654 | 10cfdd71
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\RmsNetLinxAdapter_dr4_0_0.jar | 11-30-2012 | 16:25:14 | | 186342 | 1648df4
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\rmsnlplatform.jar | 11-30-2012 | 16:25:14 | | 310249 | c1eee906
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Sample (Custom Events).axs | 11-30-2012 | 16:25:16 | | 9861 | ba0d5c72
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Sample (RFID Implementation).axs | 11-30-2012 | 16:25:16 | | 3978 | b80f83af
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Sample (Scheduling).axs | 11-30-2012 | 16:25:16 | | 13083 | c50cd2c1
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Sample (System Modes).axs | 11-30-2012 | 16:25:16 | | 9035 | d1ac0198
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Sample (System Power).axs | 11-30-2012 | 16:25:16 | | 8135 | f3a3fca3
+Made Dir: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\help
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\help\AMXWebUpdate.ico | 09-08-2010 | 10:24:02 | | 766 | 47f77967
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\help\AMXWebUpdate.vbs | 09-08-2010 | 10:24:02 | | 4235 | 8521a0c1
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\help\RMS NetLinx Programmer's Guide.pdf | 11-30-2012 | 16:25:12 | | 2607995 | 2b3b00ec
+Made Dir: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\includes
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\includes\RmsApi.axi | 11-30-2012 | 16:25:16 | | 187233 | ed81ebc6
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\includes\RmsEventListener.axi | 11-30-2012 | 16:25:16 | | 34371 | d0119646
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\includes\RmsGuiApi.axi | 11-30-2012 | 16:25:16 | | 6114 | e0301404
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\includes\RmsMathUtil.axi | 11-30-2012 | 16:25:16 | | 11039 | 4e55294a
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\includes\RmsMonitorCommon.axi | 11-30-2012 | 16:25:16 | | 35663 | e43946fe
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\includes\RmsNlSnapiComponents.axi | 11-30-2012 | 16:25:16 | | 133125 | c83d6827
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\includes\RmsNlTimer.axi | 11-30-2012 | 16:25:16 | | 7623 | b4cbbbda
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\includes\RmsRfid.axi | 11-30-2012 | 16:25:16 | | 5071 | 4051fdd1
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\includes\RmsSchedulingApi.axi | 11-30-2012 | 16:25:18 | | 24459 | 2914f6ef
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\includes\RmsSchedulingEventListener.axi | 11-30-2012 | 16:25:18 | | 41816 | 431d327b
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\includes\RmsSourceUsage.axi | 11-30-2012 | 16:25:18 | | 16395 | f4ad37a3
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\includes\RmsSystemEventHandler.axi | 11-30-2012 | 16:25:18 | | 11316 | 56979006
+Made Dir: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors\RmsControlSystemMonitor.axs | 11-30-2012 | 16:25:18 | | 14832 | e06e40f4
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors\RmsDvx2100HDSwitcherMonitor.axs | 11-30-2012 | 16:25:18 | | 75566 | 8d7f2ed5
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors\RmsDvxSwitcherMonitor.axs | 11-30-2012 | 16:25:18 | | 100755 | 8b8b28b6
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors\RmsGenericNetLinxDeviceMonitor.axs | 11-30-2012 | 16:25:18 | | 15362 | 1aeb7a41
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors\RmsPowerDistributionUnitMonitor.axs | 11-30-2012 | 16:25:18 | | 101845 | 27ad7b7a
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors\RmsRfidReaderMonitor.axs | 11-30-2012 | 16:25:18 | | 15152 | e311bf01
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors\RmsSourceUsageMonitor.axs | 11-30-2012 | 16:25:18 | | 36576 | 4fb1763a
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors\RmsSystemModeMonitor.axs | 11-30-2012 | 16:25:18 | | 13603 | 5d859219
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors\RmsSystemPowerMonitor.axs | 11-30-2012 | 16:25:18 | | 14165 | 21c8c886
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors\RmsTouchPanelMonitor.axs | 11-30-2012 | 16:25:18 | | 51689 | 9c6dafd8
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors\RmsVirtualDeviceMonitor.axs | 11-30-2012 | 16:25:18 | | 15376 | 3b9bfd76
+Made Dir: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-duet
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-duet\RmsDuetAudioConferencerMonitor.axs | 11-30-2012 | 16:25:18 | | 15810 | 17e54b9
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-duet\RmsDuetCameraMonitor.axs | 11-30-2012 | 16:25:18 | | 15762 | c55f07df
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-duet\RmsDuetDigitalSatelliteSystemMonitor.axs | 11-30-2012 | 16:25:18 | | 15825 | c4cbe9db
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-duet\RmsDuetDiscDeviceMonitor.axs | 11-30-2012 | 16:25:18 | | 15780 | e77a5765
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-duet\RmsDuetDocCameraMonitor.axs | 11-30-2012 | 16:25:18 | | 15780 | eb70880e
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-duet\RmsDuetDVRMonitor.axs | 11-30-2012 | 16:25:18 | | 15766 | 60808ec2
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-duet\RmsDuetLightSystemMonitor.axs | 11-30-2012 | 16:25:18 | | 34534 | ddfb6c7b
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-duet\RmsDuetMonitorMonitor.axs | 11-30-2012 | 16:25:18 | | 15767 | 31850b94
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-duet\RmsDuetReceiverMonitor.axs | 11-30-2012 | 16:25:18 | | 15772 | 6eaa263b
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-duet\RmsDuetSettopBoxMonitor.axs | 11-30-2012 | 16:25:18 | | 15778 | 59336688
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-duet\RmsDuetSwitcherMonitor.axs | 11-30-2012 | 16:25:18 | | 15772 | 2dbfca31
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-duet\RmsDuetTVMonitor.axs | 11-30-2012 | 16:25:18 | | 15742 | d6d416e1
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-duet\RmsDuetVideoConferencerMonitor.axs | 11-30-2012 | 16:25:18 | | 15804 | c3fb91c6
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-duet\RmsDuetVideoProjectorMonitor.axs | 11-30-2012 | 16:25:18 | | 15796 | 97dc39c
+Made Dir: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx\RmsNlAudioConferencerMonitor.axs | 11-30-2012 | 16:25:18 | | 19050 | 1355e7d1
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx\RmsNlCameraMonitor.axs | 11-30-2012 | 16:25:18 | | 19185 | b5f57aed
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx\RmsNlDigitalSatelliteSystemMonitor.axs | 11-30-2012 | 16:25:18 | | 17515 | 1966af3
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx\RmsNlDiscDeviceMonitor.axs | 11-30-2012 | 16:25:18 | | 18855 | 76de2300
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx\RmsNlDocCameraMonitor.axs | 11-30-2012 | 16:25:18 | | 21717 | c6ab5190
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx\RmsNlDVRMonitor.axs | 11-30-2012 | 16:25:18 | | 18427 | 8a7440e4
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx\RmsNlHVACMonitor.axs | 11-30-2012 | 16:25:18 | | 21010 | f6f8f540
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx\RmsNlLightSystemMonitor.axs | 11-30-2012 | 16:25:18 | | 16625 | 95f3162b
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx\RmsNlMonitorMonitor.axs | 11-30-2012 | 16:25:18 | | 19895 | 2e394988
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx\RmsNlReceiverMonitor.axs | 11-30-2012 | 16:25:18 | | 20412 | c7fcfd50
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx\RmsNlSecuritySystemMonitor.axs | 11-30-2012 | 16:25:18 | | 18816 | 253205d
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx\RmsNlSettopBoxMonitor.axs | 11-30-2012 | 16:25:18 | | 18258 | da2b83b
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx\RmsNlSwitcherMonitor.axs | 11-30-2012 | 16:25:18 | | 19052 | b2a33463
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx\RmsNlTVMonitor.axs | 11-30-2012 | 16:25:18 | | 20626 | 4641c6a7
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx\RmsNlVideoConferencerMonitor.axs | 11-30-2012 | 16:25:18 | | 22266 | 47dfe900
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\monitors-netlinx\RmsNlVideoProjectorMonitor.axs | 11-30-2012 | 16:25:18 | | 20428 | 52054eea
+Made Dir: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\touch panels
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\touch panels\RMS (1280x800).TP4 | 11-30-2012 | 16:25:12 | | 27278372 | cbb086c
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\touch panels\RMS (800x480).TP4 | 11-30-2012 | 16:25:12 | | 26226372 | 3b10cf8d
+Made Dir: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AMX Resource Management Suite\SDK
+Made Dir: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AMX Resource Management Suite\SDK\NetLinx
+Made Dir: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AMX Resource Management Suite\SDK\NetLinx\4.1.5
+Shell Link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AMX Resource Management Suite\SDK\NetLinx\4.1.5\RMS NetLinx Programmer's Guide.lnk
+Link Info: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\help\RMS NetLinx Programmer's Guide.pdf | C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\help | C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\help\RMS NetLinx Programmer's Guide.pdf | 0 | 1 | 0 | 
+Made Dir: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AMX Resource Management Suite\SDK\NetLinx\4.1.5\Samples
+Shell Link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AMX Resource Management Suite\SDK\NetLinx\4.1.5\Samples\RMS Sample Project (Duet).lnk
+Link Info: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\RMS SDK - Duet.apw | C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5 | C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\RMS SDK - Duet.apw | 0 | 1 | 0 | 
+Shell Link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AMX Resource Management Suite\SDK\NetLinx\4.1.5\Samples\RMS Sample Project (NetLinx).lnk
+Link Info: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\RMS SDK - NetLinx.apw | C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5 | C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\RMS SDK - NetLinx.apw | 0 | 1 | 0 | 
+Made Dir: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AMX Resource Management Suite\SDK\NetLinx\4.1.5\Touch Panels
+Shell Link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AMX Resource Management Suite\SDK\NetLinx\4.1.5\Touch Panels\RMS G4 Touch Panel (800x480).lnk
+Link Info: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\touch panels\RMS (800x480).TP4 | C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\touch panels | C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\touch panels\RMS (800x480).TP4 | 0 | 1 | 0 | 
+Shell Link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AMX Resource Management Suite\SDK\NetLinx\4.1.5\Touch Panels\RMS G4 Touch Panel (1280x800).lnk
+Link Info: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\touch panels\RMS (1280x800).TP4 | C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\touch panels | C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\touch panels\RMS (1280x800).TP4 | 0 | 1 | 0 | 
+File Overwrite: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\help\AMXWebUpdate.vbs | 09-08-2010 | 10:24:02 | | 4235 | 8521a0c1
+File Overwrite: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\help\AMXWebUpdate.ico | 09-08-2010 | 10:24:02 | | 766 | 47f77967
+File Overwrite: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Readme.html | 11-30-2012 | 16:25:14 | | 5342 | fdba2c7e
+Shell Link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AMX Resource Management Suite\SDK\NetLinx\4.1.5\RMS NetLinx SDK (4.1.5) Release Notes.lnk
+Link Info: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Readme.html | C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5 | C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\Readme.html | 0 | 1 | 0 | 
+File Tree: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\*.tkn
+File Tree: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\*.tko
+File Tree: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\*.src
+File Tree: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\*.TMP
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\help\UNWISE.EXE | 11-21-2007 | 03:38:04 | 10.3.0.250 | 161344 | 9a3331d4
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AMX RMS NetLinx SDK (4.1.5)
+RegDB Val: AMX RMS NetLinx SDK (4.1.5)
+RegDB Name: DisplayName
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AMX RMS NetLinx SDK (4.1.5)
+RegDB Val: C:\PROGRA~2\AMX\RESOUR~1\sdk\netlinx\41F786~1.5\help\UNWISE.EXE /u C:\PROGRA~2\AMX\RESOUR~1\sdk\netlinx\41F786~1.5\help\INSTALL.LOG
+RegDB Name: UninstallString
+RegDB Root: 2
+File Copy: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\help\EULA.TXT | 09-08-2010 | 10:24:02 | | 4716 | fe5d6317
+Shell Link: C:\ProgramData\Microsoft\Windows\Start Menu\Programs\AMX Resource Management Suite\SDK\NetLinx\4.1.5\Uninstall RMS NetLinx SDK (4.1.5).lnk
+Link Info: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\help\UNWISE.EXE | C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\help | C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5\help\Unwise.exe | 0 | 1 | 0 | /u INSTALL.LOG
+RegDB Key: SOFTWARE\AMX Corp.\Resource Management Suite\SDK\NetLinx\4.1.5
+RegDB Val: 
+RegDB Root: 2
+RegDB Key: SOFTWARE\AMX Corp.\Resource Management Suite\SDK\NetLinx\4.1.5
+RegDB Val: C:\Program Files (x86)\AMX\Resource Management Suite\sdk\netlinx\4.1.5
+RegDB Name: Path
+RegDB Root: 2
+RegDB Key: SOFTWARE\AMX Corp.\Resource Management Suite\SDK\NetLinx\4.1.5
+RegDB Val: 4.1.5
+RegDB Name: Version
+RegDB Root: 2
+RegDB Key: SOFTWARE\AMX Corp.\Resource Management Suite\SDK\NetLinx\4.1.5
+RegDB Val: 71
+RegDB Name: WebUpdateID
+RegDB Root: 2
+RegDB Key: SOFTWARE\AMX Corp.\Resource Management Suite\SDK\NetLinx\4.1.5
+RegDB Val: AMX Resource Management Suite SDK
+RegDB Name: Name
+RegDB Root: 2
+RegDB Key: SOFTWARE\AMX Corp.\Resource Management Suite\SDK\NetLinx\4.1.5
+RegDB Val: RMS SDK
+RegDB Name: ShortName
+RegDB Root: 2
+RegDB Key: SOFTWARE\AMX Corp.\Resource Management Suite\SDK\NetLinx\4.1.5
+RegDB Val: AMX Resource Management Suite Software Development Kit for the AMX NetLinx Platform
+RegDB Name: Description
+RegDB Root: 2
+RegDB Key: 
+RegDB Val: 
+RegDB Key: 
+RegDB Val: 
+RegDB Key: SOFTWARE\AMX Corp.\Resource Management Suite\SDK\NetLinx
+RegDB Val: 4.1.5
+RegDB Name: DefaultVersion
+RegDB Root: 2
+RegDB Key: SOFTWARE\AMX Corp.\Resource Management Suite\SDK\NetLinx
+RegDB Val: 4.1.5
+RegDB Name: LatestVersion
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AMX RMS NetLinx SDK (4.1.5)
+RegDB Val: 4.1.5
+RegDB Name: DisplayVersion
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AMX RMS NetLinx SDK (4.1.5)
+RegDB Val: http://www.amx.com
+RegDB Name: HelpLink
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AMX RMS NetLinx SDK (4.1.5)
+RegDB Val: 800-222-0193
+RegDB Name: HelpTelephone
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AMX RMS NetLinx SDK (4.1.5)
+RegDB Val: AMX
+RegDB Name: Publisher
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AMX RMS NetLinx SDK (4.1.5)
+RegDB Val: http://www.amx.com
+RegDB Name: URLInfoAbout
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AMX RMS NetLinx SDK (4.1.5)
+RegDB Val: Technical Support
+RegDB Name: Contact
+RegDB Root: 2
+RegDB Key: Software\Microsoft\Windows\CurrentVersion\Uninstall\AMX RMS NetLinx SDK (4.1.5)
+RegDB Val: AMX Resource Management Suite Software Development Kit for the AMX NetLinx Platform
+RegDB Name: Comments
+RegDB Root: 2
+User Rights: Admin
