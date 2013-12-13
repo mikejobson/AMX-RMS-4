@@ -1,6 +1,6 @@
 ﻿//*********************************************************************
 //
-//             AMX Resource Management Suite  (4.1.5)
+//             AMX Resource Management Suite  (4.1.13)
 //
 //*********************************************************************
 /*
@@ -90,7 +90,7 @@ DEFINE_CONSTANT
 
 CHAR MONITOR_NAME[]       = 'RMS Power Distribution Unit Monitor';
 CHAR MONITOR_DEBUG_NAME[] = 'RmsPDUMon';
-CHAR MONITOR_VERSION[]    = '4.1.5';
+CHAR MONITOR_VERSION[]    = '4.1.13';
 CHAR MONITOR_ASSET_TYPE[] = 'PowerDevice';
 CHAR MONITOR_ASSET_NAME[] = 'NXA-PDU-1508-8';
 

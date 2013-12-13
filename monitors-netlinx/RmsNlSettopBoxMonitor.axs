@@ -1,6 +1,6 @@
 ﻿//*********************************************************************
 //
-//             AMX Resource Management Suite  (4.1.5)
+//             AMX Resource Management Suite  (4.1.13)
 //
 //*********************************************************************
 /*
@@ -78,7 +78,7 @@ CHAR MONITOR_ASSET_FIRMWAREVERSION[]  = '';
 // This module's version information (for logging)
 CHAR MONITOR_NAME[]       = 'RMS Settop Box Monitor';
 CHAR MONITOR_DEBUG_NAME[] = 'RmsNlSettopBoxMon';
-CHAR MONITOR_VERSION[]    = '4.1.5';
+CHAR MONITOR_VERSION[]    = '4.1.13';
 
 
 (***********************************************************)

@@ -1,6 +1,6 @@
 ﻿//*********************************************************************
 //
-//             AMX Resource Management Suite  (4.1.5)
+//             AMX Resource Management Suite  (4.1.13)
 //
 //*********************************************************************
 /*
@@ -52,7 +52,7 @@ DEFINE_CONSTANT
 
 CHAR MONITOR_NAME[]       = 'RMS RFID Device Monitor';
 CHAR MONITOR_DEBUG_NAME[] = 'RmsRfidReaderMon';
-CHAR MONITOR_VERSION[]    = '4.1.5';
+CHAR MONITOR_VERSION[]    = '4.1.13';
 CHAR MONITOR_ASSET_TYPE[] = 'RFIDSystem';
 CHAR MONITOR_ASSET_NAME[] = ''; // populate this property to override the asset name
 

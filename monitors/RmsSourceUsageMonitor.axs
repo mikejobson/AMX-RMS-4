@@ -1,6 +1,6 @@
 ﻿//*********************************************************************
 //
-//             AMX Resource Management Suite  (4.1.5)
+//             AMX Resource Management Suite  (4.1.13)
 //
 //*********************************************************************
 /*
@@ -128,7 +128,7 @@ DEFINE_CONSTANT
 
 CHAR MONITOR_NAME[]       = 'RMS Source Usage Monitor';
 CHAR MONITOR_DEBUG_NAME[] = 'RmsSourceUsageMon';
-CHAR MONITOR_VERSION[]    = '4.1.5';
+CHAR MONITOR_VERSION[]    = '4.1.13';
 
 // source usage send command headers
 CHAR RMS_SOURCE_USAGE_COMMAND_ASSIGN_SOURCE[] = 'SOURCE.ASSIGN';

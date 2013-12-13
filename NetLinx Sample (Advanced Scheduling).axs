@@ -1,6 +1,6 @@
 //**********************************************************
 //
-//       AMX Resource Management Suite (4.1.5)
+//       AMX Resource Management Suite (4.1.13)
 //
 //**********************************************************
 PROGRAM_NAME='NetLinx Sample (Advanced Scheduling)'

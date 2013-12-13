@@ -1,6 +1,6 @@
 //*********************************************************************
 //
-//             AMX Resource Management Suite  (4.1.5)
+//             AMX Resource Management Suite  (4.1.13)
 //
 //*********************************************************************
 /*
@@ -89,7 +89,7 @@ CHAR MONITOR_ASSET_NAME[]															= '';		// Leave it empty to auto-populat
 CHAR MONITOR_ASSET_TYPE[]															= 'Switcher';
 CHAR MONITOR_DEBUG_NAME[]															= 'RmsDvxMon';
 CHAR MONITOR_NAME[]																		= 'RMS DVX Switcher Monitor';
-CHAR MONITOR_VERSION[]																= '4.1.5';
+CHAR MONITOR_VERSION[]																= '4.1.13';
 CHAR NO_INPUTS_MSG[]																	= 'None';
 CHAR SET_FRONT_PANEL_LOCKOUT_ENUM[3][MAX_STRING_SIZE]	= { 'All', 'Unlocked', 'Configuration Only' };	// Front panel lockout values
 CHAR SET_POWER_ENUM[]																	= { 'ON|OFF' };		// Note the words may change however power on must be first
@@ -549,6 +549,7 @@ DEFINE_FUNCTION ExecuteAssetControlMethod(CHAR methodKey[], CHAR arguments[])
 										methodKey, ' invalid lockout type: ', param1");
 				RETURN;
 			}
+			SEND_COMMAND dvMonitoredDevice, "'FP_LOCKTYPE-', ITOA(lockoutTypeInt)";
 
 			IF(lockoutTypeInt == 2)
 			{
@@ -556,7 +557,6 @@ DEFINE_FUNCTION ExecuteAssetControlMethod(CHAR methodKey[], CHAR arguments[])
 			}
 			ELSE
 			{
-				SEND_COMMAND dvMonitoredDevice, "'FP_LOCKTYPE-', ITOA(lockoutTypeInt)";
 				SEND_COMMAND dvMonitoredDevice, 'FP_LOCKOUT-ENABLE';
 			}
 		}
@@ -1936,9 +1936,9 @@ DATA_EVENT[dvMonitoredDevice]
 		// device for those values not
 		RequestDvxValuesUpdates();
 
-		IF(!TIMELINE_ACTIVE(TL_MONITOR))
+		IF(DEVICE_ID(vdvRMS) && !TIMELINE_ACTIVE(TL_MONITOR))
 		{
-			TIMELINE_CREATE(TL_MONITOR,DvxMonitoringTimeArray,2,TIMELINE_RELATIVE,TIMELINE_REPEAT);
+			TIMELINE_CREATE(TL_MONITOR,DvxMonitoringTimeArray,1,TIMELINE_RELATIVE,TIMELINE_REPEAT);
 		}
   }
 
@@ -2393,9 +2393,17 @@ DATA_EVENT[vdvRMS]
 {
 	ONLINE:
 	{
+		IF(DEVICE_ID(dvMonitoredDevice) && !TIMELINE_ACTIVE(TL_MONITOR))
+		{
+			TIMELINE_CREATE(TL_MONITOR,DvxMonitoringTimeArray,1,TIMELINE_RELATIVE,TIMELINE_REPEAT);
+		}
 	}
 	OFFLINE:
 	{
+		IF(TIMELINE_ACTIVE(TL_MONITOR))
+		{
+			TIMELINE_KILL(TL_MONITOR);
+		}
 	}
 }
 

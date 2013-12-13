@@ -1,6 +1,6 @@
 //*********************************************************************
 //
-//             AMX Resource Management Suite  (4.1.5)
+//             AMX Resource Management Suite  (4.1.13)
 //
 //*********************************************************************
 /*
@@ -53,7 +53,7 @@ DEFINE_CONSTANT
 
 (* Version For Code *)
 CHAR __RMS_TIMER_NAME__[]       = 'RMSNlTimer.axi';
-CHAR __RMS_TIMER_VERSION__[]    = '4.1.5';
+CHAR __RMS_TIMER_VERSION__[]    = '4.1.13';
 
 LONG    MonitoringTimeArray[1]  = { 60000 }; // must be set to 1 minute (60000 ms)
 

@@ -1,6 +1,6 @@
 ﻿//*********************************************************************
 //
-//             AMX Resource Management Suite  (4.1.5)
+//             AMX Resource Management Suite  (4.1.13)
 //
 //*********************************************************************
 /*
@@ -77,7 +77,7 @@ CHAR MONITOR_ASSET_FIRMWAREVERSION[]  = '';
 // This module's version information (for logging)
 CHAR MONITOR_NAME[]       = 'RMS HVAC Monitor';
 CHAR MONITOR_DEBUG_NAME[] = 'RmsNlHVACMon';
-CHAR MONITOR_VERSION[]    = '4.1.5';
+CHAR MONITOR_VERSION[]    = '4.1.13';
 
 
 (***********************************************************)
@@ -341,11 +341,11 @@ STACK_VAR
     }
     CASE 'hvac.cool.setpoint' :
     {
-      SEND_LEVEL vdvDeviceModule, HVAC_COOL_LVL, LEVEL.VALUE
+      SEND_LEVEL vdvDeviceModule, HVAC_COOL_LVL, nValue1
     }
     CASE 'hvac.heat.setpoint' :
     {
-      SEND_LEVEL vdvDeviceModule, HVAC_HEAT_LVL, LEVEL.VALUE
+      SEND_LEVEL vdvDeviceModule, HVAC_HEAT_LVL, nValue1
     }
     CASE 'hvac.thermostat.hold' :
     {

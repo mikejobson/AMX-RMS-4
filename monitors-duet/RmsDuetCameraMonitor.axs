@@ -1,6 +1,6 @@
 ﻿//*********************************************************************
 //
-//             AMX Resource Management Suite  (4.1.5)
+//             AMX Resource Management Suite  (4.1.13)
 //
 //*********************************************************************
 /*
@@ -56,7 +56,7 @@ DEFINE_CONSTANT
 
 CHAR MONITOR_NAME[]       = 'RMS Camera Monitor';
 CHAR MONITOR_DEBUG_NAME[] = 'RmsDuetCameraMon';
-CHAR MONITOR_VERSION[]    = '4.1.5';
+CHAR MONITOR_VERSION[]    = '4.1.13';
 CHAR MONITOR_ASSET_TYPE[] = '';
 CHAR MONITOR_ASSET_NAME[] = '';
 
