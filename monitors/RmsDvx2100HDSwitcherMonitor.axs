@@ -1,7 +1,7 @@
 ﻿
 //*********************************************************************
 //
-//             AMX Resource Management Suite  (4.1.5)
+//             AMX Resource Management Suite  (4.1.13)
 //
 //*********************************************************************
 /*
@@ -89,7 +89,7 @@ CHAR MONITOR_ASSET_NAME[]                               = '';                 //
 CHAR MONITOR_ASSET_TYPE[]                               = 'Switcher';
 CHAR MONITOR_DEBUG_NAME[]                               = 'RmsDvxMon';
 CHAR MONITOR_NAME[]                                     = 'RMS DVX Switcher Monitor';
-CHAR MONITOR_VERSION[]                                  = '4.1.5';
+CHAR MONITOR_VERSION[]                                  = '4.1.13';
 CHAR SET_AUDIO_OUTPUT_ALL_ENUM[AUDIO_OUTPUT_CNT + 1][4] = { 'All', '1', '2' };
 CHAR SET_FRONT_PANEL_LOCKOUT_ENUM[3][STRING_SIZE]       = { 'Unlocked', 'All','Configuration Menu Only' };  // Front panel lockout values
 CHAR SET_MIC_INPUT_PLUS_ALL_ENUM[MIC_COUNT + 1][4]      = { 'All', '1', '2' };

@@ -1,6 +1,6 @@
 //**********************************************************
 //
-//       AMX Resource Management Suite (4.1.5)
+//       AMX Resource Management Suite (4.1.13)
 //
 //**********************************************************
 
@@ -325,6 +325,19 @@ DATA_EVENT[vdvRMSGui]
 
     // Alternatively, the touch panel can be designated for external use
     RmsSetExternalPanel(dvTP2, dvTP2_RMS);
+    
+    // Set GUI defaults
+    RmsSetDefaultEventBookingSubject('<Enter Meeting Subject>');
+    RmsSetDefaultEventBookingBody('<Enter Meeting Details>');
+    
+    // Enable LED Support
+    // Green => No event in progress
+    // Red => Event in progress
+    // LED support is enabled by default
+    // RmsEnableLedSupport(TRUE);
+    
+    // Disable LED Support
+    // RmsEnableLedSupport(FALSE);
   }
 }
 

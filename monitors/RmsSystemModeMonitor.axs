@@ -1,6 +1,6 @@
 //*********************************************************************
 //
-//             AMX Resource Management Suite  (4.1.5)
+//             AMX Resource Management Suite  (4.1.13)
 //
 //*********************************************************************
 /*
@@ -63,7 +63,7 @@ DEFINE_CONSTANT
 
 CHAR MONITOR_NAME[]       = 'RMS System Modes Monitor';
 CHAR MONITOR_DEBUG_NAME[] = 'RmsSystemModesMon';
-CHAR MONITOR_VERSION[]    = '4.1.5';
+CHAR MONITOR_VERSION[]    = '4.1.13';
 
 
 // Including the RmsEventListener.AXI will listen for RMS

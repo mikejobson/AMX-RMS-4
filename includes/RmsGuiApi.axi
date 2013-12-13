@@ -1,6 +1,6 @@
 //*********************************************************************
 //
-//             AMX Resource Management Suite  (4.1.5)
+//             AMX Resource Management Suite  (4.1.13)
 //
 //*********************************************************************
 /*
@@ -65,6 +65,9 @@ DEFINE_CONSTANT
 
 RMS_GUI_SET_INTERNAL_COMMAND_HEADER = 'SET_INTERNAL_PANEL-'; 
 RMS_GUI_SET_EXTERNAL_COMMAND_HEADER = 'SET_EXTERNAL_PANEL-'; 
+RMS_GUI_SET_DEFAULT_EVENT_BOOKING_SUBJECT_COMMAND_HEADER = 'SET_DEFAULT_EVENT_BOOKING_SUBJECT';
+RMS_GUI_SET_DEFAULT_EVENT_BOOKING_BODY_COMMAND_HEADER = 'SET_DEFAULT_EVENT_BOOKING_BODY';
+RMS_GUI_ENABLE_LED_SUPPORT_COMMAND_HEADER = 'ENABLE_LED_SUPPORT';
 
 (***********************************************************)
 (*               VARIABLE DEFINITIONS GO BELOW             *)
@@ -119,6 +122,66 @@ DEFINE_FUNCTION CHAR RmsSetExternalPanel(DEV baseTouchPanelDps, DEV rmsTouchPane
     rmsCommand = RmsPackCmdHeader(RMS_GUI_SET_EXTERNAL_COMMAND_HEADER);
     rmsCommand = RmsPackCmdParam(rmsCommand,RmsDevToString(baseTouchPanelDPS));
     rmsCommand = RmsPackCmdParam(rmsCommand,RmsDevToString(rmsTouchPanelDps));
+    SEND_COMMAND vdvRMSGui, rmsCommand;
+    
+    RETURN TRUE;
+}
+
+(***********************************************************)
+(* Name:  RmsSetDefaultEventBookingSubject                 *)
+(* Args:  CHAR subject[]                                   *)
+(*                                                         *)
+(* Desc:  This function is used to set a default event     *)
+(*        booking subject.                                 *)
+(*                                                         *)
+(* Rtrn:  1 if call was successful                         *)
+(*        0 if call was unsuccessful                       *)
+(***********************************************************)
+DEFINE_FUNCTION CHAR RmsSetDefaultEventBookingSubject(CHAR subject[RMS_MAX_PARAM_LEN])
+{
+    STACK_VAR CHAR rmsCommand[RMS_MAX_CMD_LEN];
+    rmsCommand = RmsPackCmdHeader(RMS_GUI_SET_DEFAULT_EVENT_BOOKING_SUBJECT_COMMAND_HEADER);
+    rmsCommand = RmsPackCmdParam(rmsCommand,subject);
+    SEND_COMMAND vdvRMSGui, rmsCommand;
+    
+    RETURN TRUE;
+}
+
+(***********************************************************)
+(* Name:  RmsSetDefaultEventBookingBody                    *)
+(* Args:  CHAR body[]                                      *)
+(*                                                         *)
+(* Desc:  This function is used to set a default event     *)
+(*        booking body.                                    *)
+(*                                                         *)
+(* Rtrn:  1 if call was successful                         *)
+(*        0 if call was unsuccessful                       *)
+(***********************************************************)
+DEFINE_FUNCTION CHAR RmsSetDefaultEventBookingBody(CHAR body[RMS_MAX_PARAM_LEN])
+{
+    STACK_VAR CHAR rmsCommand[RMS_MAX_CMD_LEN];
+    rmsCommand = RmsPackCmdHeader(RMS_GUI_SET_DEFAULT_EVENT_BOOKING_BODY_COMMAND_HEADER);
+    rmsCommand = RmsPackCmdParam(rmsCommand,body);
+    SEND_COMMAND vdvRMSGui, rmsCommand;
+    
+    RETURN TRUE;
+}
+
+(***********************************************************)
+(* Name:  RmsEnableLedSupport                              *)
+(* Args:  CHAR enableLedSupport                            *)
+(*                                                         *)
+(* Desc:  This function is used to enable or disable LED   *)
+(*        support.                                         *)
+(*                                                         *)
+(* Rtrn:  1 if call was successful                         *)
+(*        0 if call was unsuccessful                       *)
+(***********************************************************)
+DEFINE_FUNCTION CHAR RmsEnableLedSupport(CHAR enableLedSupport)
+{
+    STACK_VAR CHAR rmsCommand[RMS_MAX_CMD_LEN];
+    rmsCommand = RmsPackCmdHeader(RMS_GUI_ENABLE_LED_SUPPORT_COMMAND_HEADER);
+    rmsCommand = RmsPackCmdParam(rmsCommand,RmsBooleanString(enableLedSupport));
     SEND_COMMAND vdvRMSGui, rmsCommand;
     
     RETURN TRUE;

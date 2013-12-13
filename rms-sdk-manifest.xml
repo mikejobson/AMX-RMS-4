@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<rms-sdk-manifest version="4.1.5">
+<rms-sdk-manifest version="4.1.13">
 
   <!-- THE FILES BELOW ARE REQUIRED AND WILL BE INCLUDED IN ALL RMS SDK PROJECTS -->
   <required>

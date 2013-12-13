@@ -1,6 +1,6 @@
 //*********************************************************************
 //
-//             AMX Resource Management Suite  (4.1.5)
+//             AMX Resource Management Suite  (4.1.13)
 //
 //*********************************************************************
 /*
@@ -1131,7 +1131,7 @@ DEFINE_FUNCTION RmsAssetOnlineParameterEnqueue(CHAR assetClientKey[], INTEGER nO
   threshold.name = 'Offline';
   threshold.comparisonOperator = RMS_ASSET_PARAM_THRESHOLD_COMPARISON_EQUAL;
   threshold.value = 'Offline';
-  threshold.statusType = RMS_STATUS_TYPE_MAINTENANCE;
+  threshold.statusType = RMS_STATUS_TYPE_ROOM_COMMUNICATION_ERROR;
   threshold.enabled = TRUE;
   threshold.notifyOnRestore = TRUE;
   threshold.notifyOnTrip = TRUE;
